@@ -1,0 +1,30 @@
+h3:hover{
+background:greenyellow;
+font-size: 30 !important;
+}
+button:hover{
+    background: blue;
+}
+
+canvas{
+    animation-name: light;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+}
+ @keyframes light{
+     from{
+         box-shadow: crimson;
+     }
+     to{
+         box-shadow: gold;
+     }
+ }
+ .copy_right_footer{
+    position: fixed;
+    color: violet;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    line-height: 3;
+    text-align: center;
+}
